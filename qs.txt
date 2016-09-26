@@ -1,0 +1,30 @@
+1)Do you like to use smartphones to access social networks?
+(a)yes 	(b)no	(c)sometimes	(d)Do not socialize on social networks
+
+2)How often do you share your experience on blogs/social media?
+(a)Very Often 	(b)less often	(c)rarely	(d)never
+
+3)How often do you do background research before visiting any place or planning a tour?
+(a)Very Often 	(b)less often	(c)rarely	(d)never
+
+4)Whose reviews/opinions about places of intrest would you value more, (A)your friends, family, acquaintances, or (B)bloggers, professional websites?
+(a)A		(b)B		(c)neither A nor B	(d)Depends on the place
+
+5)How often do you get troubles in knowing place of intrest around the tourist spots.
+(a)Very Often 	(b)less often	(c)rarely	(d)don't browse through any such things
+
+6)Which device do you prefer to use while using social media
+(a)Desktop/Laptop 		(b)Mobile/Tablet
+
+7)How often do you share photographs on social media?
+(a)Very Often 	(b)less often	(c)rarely	(d)never
+
+8)How often have you been mislead by the internet?
+(a)Very Often 	(b)less often	(c)rarely	(d)never	
+
+age group
+how much travel
+reliable sources
+how much share exp
+value of photo(desc or photo)
+

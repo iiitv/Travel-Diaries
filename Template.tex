@@ -1,0 +1,118 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+
+% Title Page
+\title{Software Engineering (CS301)\\ Document Name(Version)\\Travel Diaries}
+\author{Group 5}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\textbf{Project Members}\\
+\vspace*{.6cm}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ID} & \textbf{Name}\\
+\hline
+\hline
+201452004 & Nilesh Chaturvedi\\
+\hline
+201452005 & Jitender Rajput\\
+\hline
+201452012 & Durga Vijaya Lakshmi\\
+\hline
+201452036 & Pedapalli Akhil\\
+\hline
+20152040 & B. Indu\\
+\hline
+201452044 & Dileep Krishna\\
+\hline
+201452050 & Shreya Singh\\
+\hline
+201452056 & Ravi Patel\\
+\hline
+201452057 & G. Raju Koushik\\
+\hline
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Authored By} & \textbf{Name}\\
+\textbf{Reviewed By} & \textbf{Name}\\
+\hline
+\end{tabular}
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+As freshers, we wanted to have as many books as possible at minimum price. Now as third year students, we want to get rid of all the unnecessary books accumulated over this period of two years. To bring all the buyers and sellers under one roof we took up this project. Not only it will provide the means to buy and sell books and also a space for discussion regarding course related material.
+All the steps listed below are crucial for the software to run on your system. Not following any of these may lead to the software not working.
+\section{System Environment}
+\begin{itemize}
+\item Development: Android SDK
+%\item Diagrams: Wireframe, Dia
+\item Database Management: PostgreSQL 
+\item Server: Apache2
+%\item Discussion: Whatsapp Group
+\end{itemize}
+\section{Setting Up a Local Web Server}
+The website executes on a web server running PHP. So before you start using website you need following programs(softwares) installed on computer/system :
+\begin{itemize}
+\item Apache2 web server
+\item PHP engine
+\item PostgreSQL database server
+\item pgAdminIII
+\end{itemize}
+
+Based on the platform, like if you are using \textbf{Linux} you have to follow the given procedures:\\
+\subsection{Installing Apache2 server}
+$\gg$Open Terminal($\diamond$ Ctrl+Alt+T) and type the given commands:
+\begin{center}\includegraphics[scale=.6]{1.png}\end{center}
+$\gg$How to Find your Server’s IP address. You can run the following command to reveal your server’s IP address:
+\begin{center}\includegraphics[scale=.6]{3.png}\end{center}
+Note :- If you are using wireless then replace \textbf{eth0} with \textbf{wlan0}(your environment).
+\subsection{Install PHP}
+$\gg$Open Terminal and type the given command:
+\begin{center}\includegraphics[scale=.6]{2.png}\end{center}
+$\gg$For PostgreSQL we have to install PHP module for PostgreSQL, for that type:
+\begin{center}\includegraphics[scale=.6]{5.png}
+\includegraphics[scale=.6]{6.png}\end{center}
+\subsection{Install PostgreSQL and Setup Database Server}
+$\gg$Open Terminal and type the given commands:
+\begin{center}\includegraphics[scale=.6]{4.png}\end{center}
+$\gg$Now type following commands to install Administration tool \textbf{pgAdminIII}
+\begin{center}\includegraphics[scale=.6]{7.png}\end{center}
+\subsubsection{Setting up pgAdminIII}
+$\gg$Open pgAdminIII tool
+\begin{center}\includegraphics[scale=.4]{8.png}\end{center}
+$\gg$Click top-left icon
+\begin{center}\includegraphics[scale=.3]{9.png}\end{center}
+$\gg$A window pops-out
+\begin{center}\includegraphics[scale=.4]{10.png}\end{center}
+$\gg$Fill the entries accordingly
+\begin{center}\includegraphics[scale=.4]{11.png}\end{center}
+$\gg$Once the server is setup then restore the backup file which is included in this software.
+$\gg$Backup file will create the database and make all the entries which are required.
+\subsubsection{Running the script}
+\begin{itemize}
+\item We will provide \texttt{backup file} for the database.
+\item In pgAdmin, click on the web server you just created.
+\item Right click on the Database heading, select New Database and name it TITV.
+\item Right click on this database, and  select backup. Browse BeyondBooks folder and select \texttt{beyondbooks$\_$db} file and click Restore.
+\item Now, copy the whole \texttt{BeyondBooks} folder in the \texttt{/var/www/html/$...$}.
+\item Now, open terminal type in following commands: \texttt{sudo service apache2 start}
+\item If using the website on the same pc in which database is hosted, open web browser and type \texttt{localhost/BeyondBooks/web}.
+\item If on the different pc (Note - both pc must be connected to the same network), then find the IP address of the pc in which database is created using \texttt{ifconfig} command. After that, in the second pc, open \texttt{db$\_$conn.php} file and in place of \texttt{localhost}, type the IP of the first pc. Follow the above steps.
+\end{itemize}
+
+\end{document}

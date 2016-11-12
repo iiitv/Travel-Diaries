@@ -1,0 +1,283 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumerate}
+
+\usepackage{hyperref}
+\usepackage{multirow}
+
+\hypersetup{%
+  colorlinks = true,
+  linkcolor  = black
+}
+
+
+% Title Page
+\title{Software Engineering (CS301)\\ System Test Plan\\Travel Diaries}
+\author{Group 5}
+\date{September 5, 2016}
+\begin{document}
+\maketitle
+
+
+\begin{center}
+\textbf{Project Members}\\
+\vspace*{.6cm}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ID} & \textbf{Name}\\
+\hline
+\hline
+201452004 & Nilesh Chaturvedi\\
+\hline
+201452005 & Jitendra Singh\\
+\hline
+201452012 & Durga Vijaya Lakshmi\\
+\hline
+201452036 & Pedapalli Akhil\\
+\hline
+20152040 & B. Indu\\
+\hline
+201452044 & Dileep Krishna\\
+\hline
+201452050 & Shreya Singh\\
+\hline
+201452056 & Ravi Patel\\
+\hline
+201452057 & G. Raju Koushik\\
+\hline
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Authored By} & \textbf{Jitendra Singh}\\
+\hline
+\textbf{Reviewed By} & \textbf{Nilesh Chaturvedi,Shreya Singh}\\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+\subsection{Purpose}
+This document is a test plan for Travel Dairies  System Testing, produced by the System Testing team.  It describes the testing strategy and approach to testing the team will use to verify that the application meets the established requirements of the business prior to release.
+\subsection{Objective}
+\begin{itemize}
+\item Meets the requirements, specifications and desire test features.
+\item Supports the intended functions and achieves the required software standards.
+\item Satisfies the Entrance Criteria for User Acceptance Testing.
+\end{itemize}
+
+\section{Functional Test Scope }
+The Modules in the scope of testing for the  Travel Dairies System Testing are mentioned in the document attached System Requirement Specification.All the features we maintain in SRS documents have desire test result.
+\section{Entrance Criteria }
+\begin{itemize}
+\item All source codes are unit tested
+\item All Quality Assurance resource has enought functional knowledge
+\item Reqire all data to be testing
+\item Test plans and test cases are reviewed and signed off
+
+\end{itemize}
+
+
+
+\section{Test case}
+
+\subsection{Testing All functionality}
+In this testing the application we testing enter row data and seeing desire outcome.
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|}
+\hline
+Test Case 1 &      Test Case Details  \hspace{4cm} \\ 
+\hline
+ Functionality & Intro page \\ 
+\hline
+\multirow{3}{4em}{Steps} & Click on Signup\\  
+& Click on Login \\ 
+\hline
+Test Scenario & Next Link Activity exits \\
+\hline
+\multirow{3}{4em}{TestData} & Click on Signup Button\\  
+& Click on Login Button \\ 
+\hline
+
+\multirow{3}{4em}{DesireResult} & Go to Signup  \\ 
+& Go to Login\\  
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 1 : Table 1
+
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|}
+\hline
+Test Case 2 & Test Case Details     \hspace{4cm} \\ 
+\hline
+ Functionality & Login \\ 
+\hline
+\multirow{3}{4em}{Steps} & Enter User ID  \\ 
+& Enter Password \\ 
+& Click On login \\ 
+\hline
+Test Scenario & User ID and pasword exist in database \\
+\hline
+\multirow{3}{4em}{TestData} & Enter User Name :jsroyal  \\ 
+& Enter Password:123456789\\ 
+& Click On login \\ 
+\hline
+\multirow{3}{4em}{DesireResult} & Succefully Login  \\ 
+& Lended into Main Home Page\\  
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 2 : Table 2
+
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Test Case 3 & Test Case Details  \hspace{4cm} \\ 
+\hline
+ Functionality & Sign Up  \\ 
+\hline
+\multirow{3}{4em}{Steps} & Enter User ID  \\
+& Enter first Name \\
+& Enter Last Name \\ 
+& Enter Email ID \\
+& Enter Password \\
+& Click On Sign Up \\ 
+\hline
+Test Scenario & Connected Internet \\
+\hline
+\multirow{3}{4em}{Steps} & Enter User ID :Jsroyal  \\
+& Enter first Name :Jitendra\\
+& Enter Last Name :Singh \\ 
+& Enter Email ID  jsroyal55@gmail.com\\
+& Enter Password :123456789\\
+& Click On Sign Up \\ 
+\hline
+\multirow{3}{4em}{DesireResult} & Succefully Register   \\ 
+& Lended into Home Page\\ 
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 3 : Table 3
+
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Test Case 4 & Test Case Details  \hspace{4cm} \\ 
+\hline
+ Functionality & Forgot Password \\ 
+\hline
+\multirow{3}{4em}{ Steps} & Click on Forgot password textview \\  
+& \\
+\hline
+Test Scenario & Enter email id which is already Register \\
+\hline
+\multirow{3}{4em}{TestData} & Enter EmailID :jsroyal55@gmail.com  \\ 
+ 
+& Click On Reset Password \\ 
+\hline
+\multirow{3}{4em}{DesireResult} & Succefully Send Link \\ 
+& Go to Email and reset password\\ 
+ 
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 4 : Table 4
+
+
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Test Case 5 & Test Case Details \hspace{4cm}  \\ 
+\hline
+ Functionality & Post  \\ 
+\hline
+\multirow{3}{4em}{Steps} & Click on + bar button  \\ 
+& Select Dairy name  \\
+& Select Picture from file \\
+& Click on Post \\ 
+\hline
+
+Test Scenario & Select exist Dairy \\
+\hline
+\multirow{3}{4em}{TestData} & Enter File :jsroyal.jpg \\ 
+& Click On Post \\ 
+\hline
+\multirow{3}{4em}{DesireResult} & Succefully post  \\ 
+& Show the picture\\ 
+ 
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 5 : Table 5
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+\hline
+Test Case 6 & Test Case Details  \hspace{4cm}  \\ 
+\hline
+ Functionality & Add Dairy  \\ 
+\hline
+\multirow{3}{4em}{Steps} & Click on + bar button   \\ 
+& Enter Dairy name  \\
+& Select Picture from file  \\
+& Click on Post  \\ 
+\hline
+Test Scenario & Atleast one post Images  \\
+\hline
+\multirow{3}{4em}{TestData} & Enter File :jsroyal.jpg\\ 
+& Click On Post \\ 
+\hline
+\multirow{3}{4em}{DesireResult} & Succefully Created Dairy  \\ 
+& Show the picture\\ 
+ 
+\hline
+\end{tabular}
+\end{center}
+\hspace{3.5cm} Figure 6 : Table 6
+
+
+
+
+\section{Exit Criteria}
+\begin{itemize}
+\item No defect over a perod of time or testing effort
+\item Planned deliverables are ready
+\item High severity defects are fixed
+\item To write a test summary report for stakeholders.
+\end{itemize}
+
+\section{Responsibility}
+\begin{itemize}
+\item To read all the SRS and understand what needs to be tested.
+\item Based on the information procured in the above step decide how it is to be tested.
+\item Inform the test lead about what all resources will be required for software testing.
+\item Develop test cases and prioritize testing activities.
+\item Execute all the test case and report defects, define severity and priority for each defect.
+
+\end{itemize}
+
+
+  System Testing members.
+
+
+
+\end{document}

@@ -1,0 +1,311 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{array}
+\hypersetup{%
+  colorlinks = true,
+  linkcolor  = black
+}
+
+
+% Title Page
+\title{Software Engineering (CS301)\\ Document Name(Version)\\Travel Diaries}
+\author{Group 5}
+
+\begin{document}
+\maketitle
+
+
+\begin{center}
+\textbf{Project Members}\\
+\vspace*{.6cm}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ID} & \textbf{Name}\\
+\hline
+\hline
+201452004 & Nilesh Chaturvedi\\
+\hline
+201452005 & Jitendra Singh\\
+\hline
+201452012 & Durga Vijaya Lakshmi\\
+\hline
+201452036 & Pedapalli Akhil\\
+\hline
+20152040 & B. Indu\\
+\hline
+201452044 & Dileep Krishna\\
+\hline
+201452050 & Shreya Singh\\
+\hline
+201452056 & Ravi Kumar Patel\\
+\hline
+201452057 & G. Raju Koushik\\
+\hline
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Authored By} & \textbf{Ravi Kumar Patel}\\
+\hline
+\textbf{Re ViewBy} & \textbf{name..}\\
+\hline
+
+\end{tabular}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Overview}
+Software configuration management (SCM) is a software engineering discipline consisting of standard processes and techniques often used by organizations to manage the changes introduced to its software products. SCM helps in identifying individual elements and configurations, tracking changes, and version selection, control, and baselining.
+
+SCM is also known as software control management. SCM aims to control changes introduced to large complex software systems through reliable version selection and version control.
+\subsection{Scope}
+The scope of this documentation is the identification of a top ­level configuration management plan for the project. Software Configuration management(SCM) basically involves identifying and defining the various items in the system or software that would require change. Also, it involves recording the changes and verifying that the items are complete and consistent–functionally and logically, even after the changes undertaken.
+
+
+\subsection{Purpose}
+The purpose of the document is to provide steps and processes of configuration management .This SCM plan documents what Configuration Activities , roles and responsibilities regarding specific activities and the resources required for them.\\\\
+SCM activities include​:
+\begin{itemize}
+
+\item Identification and establishment of baselines.
+\item Review, approval and control of changes.
+\item Tracking and reporting changes.
+\item Audits and reviews of evolving TravelDiaries.
+\item Management of updated versions release.
+
+\end{itemize}
+
+\section{Definitions and Acronyms}
+
+DEFINITIONS -:\\
+
+A set of management disciplines within the software engineering process
+to develop a baseline.\\
+“SCM is the control of the evolution of the systems, for the purpose to contribute to 
+satisfying quality and delay constraints.”
+\\\\
+"SCM provides the capabilities of identification control, status accounting,audit and review, manufacture, process management, and teamwork."
+
+
+
+\subsection{Acronyms}
+ACRONYMS AND ABBREVIATIONS USED IN CONFIGURATION
+MANAGEMENT DOCUMENTATION AND STANDARDS
+
+
+\begin{table}[]
+\centering
+\caption{Acronyms}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+CI  & Configuration Item                                     \\ \hline
+CM  & Configuration Management/Manager                       \\ \hline
+SCM & \multicolumn{1}{r|}{Software Configuration Management} \\ \hline
+SCA & Software Communications Architecture                   \\ \hline
+SDL & Software Development Lifecycle                         \\ \hline
+CMS & Content Management System                              \\ \hline
+\end{tabular}
+\end{table}
+
+\section{SCM Management}
+SCM Management provides the information of responsibilities assigned for the management of various SCM activities .
+
+\subsection{Introduction}
+Software Configuration Management encompasses the disciplines and
+techniques of initiating, evaluating and controlling change to software
+products during and after the software engineering process.\\
+
+\subsection{Roles and Responsibilities\\}
+PROJECT MANAGER -:\\\\ The Project Manager knows the state of the software and the documents. If for any reason configuration manager is not present, project manager will assign his/her role to someone else from the team to perform on his/her behalf.
+\\\\
+CONFIGURATION MANAGER -:\\\\ Organizes software configuration management. Configuration Manager manages and reviews the Configuration management activities. Configuration Manager is also responsible for installation and maintenance of configuration management tools and providing support and training to its users.\\
+Responsible for identifying configuration items. The configuration
+manager can also be responsible for defining the procedures for creating
+promotions and releases\\\\
+Change Control Board -:\\\\Responsible for approving or rejecting change requests\\ Change Control Board is a committee that makes decisions regarding whether or not proposed changes to a software project should be implemented.
+\\\\
+Developer -:\\\\
+Creates promotions triggered by change requests or the normal activities
+of development. The developer checks in changes and resolves conflicts
+
+
+
+\begin{table}[]
+\centering
+\caption{Roles}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+ROLES  & ASSIGNED TO                                     \\ \hline
+Project Manager  & Shreya singh                      \\ \hline
+Configuration Manager & Ravi Kumar Patel \\ \hline
+Change Control Board & Nilesh , jitu , Raju koushik                   \\ \hline
+Developers & group-5(IT)                        \\ \hline
+                            
+\end{tabular}
+\end{table}
+
+\subsection{Applicable Policies, Directives and Procedure}
+All relevant products and the updated documents are to be added and stored in the github Repositories immediately so they are available to the developers. The code should be updated on Server . These products should have a proper version number. As soon as an update is done it should be immediately informed on Whatsapp group.\\
+
+
+Updated source code should always be tested and must be bug­free.
+ 
+Revision conflicts are to be resolved by the developers themselves as soon as possible. It is advisable to communicate with the developers.
+
+\section{SCM Activities}
+Activities are usually performed in different ways (formally, informally)
+depending on the project type and life-cycle phase (research,
+development, maintenance).\\
+SCM activities identifies all the activities and functions required to manage the configuration of the TravelDiaries application . There will be organizations created to handle both the technical and managerial changes made available to the TravelDiaries. SCM activities traditionally grouped into five functions: Configuration Identification, configuration control, configuration status accounting, configuration evaluations and reviews, and release management and delivery. The content of them is given in the following sections.
+
+\subsection{Configuration Identification}
+Configuration identification activities would identify, and give the description of the documented and functional characteristics of the different units,specifications, design and data elements to be controlled while adding the changes in TravelDiaries application.
+
+
+The configuration identification will be tracking all the TravelDiaries units and will help to control the need of change in any particular model needed after testing. This will be handled by the TravelDiaries admin.
+
+\subsection{Identifying Configuration Items(CIs)}
+Configuration identification involves identifying which items are to be placed under configuration management and then it will be considered as the configuration items. The
+development artifacts including source code,software tools, documentation, etc. are identified as configuration items. So here the SCM plan for the TravelDiaries will be describing the creation of baselines as shown in the following:
+
+
+\begin{itemize}
+
+\item As soon as the CI has been acknowledged particular organization should be created to tackle it, including managerial and technical.
+\item This should be showing the items that are to be controlled.
+\item The organization assigned to that particular change in configuration control should be approving the final changes made or actions to be taken.
+
+\end{itemize}
+Some terms should be identifying changes and associating them with the particular organization created in the TravelDiaries system whether it is managerial or technical, and those organization or the authority should be specified clearly for that particular CI before resolving.
+ 
+
+\subsection{Naming Configuration Items}
+This System Configuration plan for the Cafe Pay should be identifying the item to be configured when it is introduced to change and the organizations whether technical or managerial give that change an ID and name in the to do list. This is how the naming convention should go on for the items to be changed. This plan shall describe the methods for naming controlled items for purposes of storage, retrieval, tracking, reproduction and distribution. Activities may include marking, labeling of documentation and executable software.
+
+\subsection{Acquiring Configuration items}
+“An aggregation of hardware, software, or both, that is
+designated for configuration management and treated as a
+single entity in the configuration management process.”\\
+
+Software configuration items are not only program code segments but all
+type of documents according to development, e.g\\
+
+\begin{itemize}
+
+\item All type of code files.
+\item Drivers for tests.
+\item  Analysis or design documentsAudi.
+\item User or developer manuals.
+\item System configurations (e.g. version of compiler used).\\
+
+In some systems, not only software but also hardware configuration items
+(CPUs, bus speed frequencies) exist!
+
+\end{itemize}
+This will be idealizing the software libraries for the project and describe how the code, documentation, and data of the identified baselines which has been decided by the organization which is authorized to handle that particular change to configure the system. Here the plan would be specifying the procedures to follow for each of the CIs. This procedure should be dictating the terms of how to handle that particular CI in many different ways like coding and data consumption from our database accordingly. Also, the CIs would be handle in order to their Naming of CIs.
+\section{Configuration Control}
+Configuration control activities request, evaluate, approve, or disapprove and implement changes to predefined CIs. Indeed, this will be defining the terms of controlling the process of CIs to handled in a certain manner which includes both error correction and enhancement. The intensity of changing the CIs depends on the baseline affected and impact of the change within the structure. Configuration control activities include processing of a request in the naming convention manner and should authoritatively approved by the admin of TravelDiaries .
+
+
+As described earlier the TravelDiaries software library identified according to the [Acquiring changes]. And all the constraints from there should be taken into considerations. And that should be defining the following sequence of steps:
+
+\begin{itemize}
+\item Identification and documentation of the need for a change.
+\item Analysis and evaluation of a change request.
+\item Approval and disapproval of a request.
+\item Verification, implementation, and release of a change.
+
+\end{itemize}
+
+This plan would identify the record for the things which has been used and taken into consideration while the creation and formation documentation or the technical portion(code, modules, etc.) for each change.
+
+\subsection{Requesting changes}
+This plan shall specify the procedures for requesting a change that has to be done by following the naming of CIs and also a documentation includes the information regarding the request and changes to be made. The following sequence of steps should follow:
+
+
+The name and version of the CIs where the change is desired
+Generator’s name and organizations
+
+\begin{itemize}
+\item Date of request.
+\item Identification of urgency.
+\item The need for the change.
+\item Description of the requested change.
+
+\end{itemize}
+Other information like the priority of CI or classification may be included to clarify the significance and also the change request number, id, status, name and disposition would be recorded so that the TravelDiaries team can track the progress of it.
+
+\subsection{Evaluating changes}
+Specifies the analysis required to determine the
+impact of proposed changes and the procedure for
+reviewing the results of the analysis.\\
+Changes made to a CI are evaluated by the review team by the effect on the deliverable and their impact on the cost, project resources, team effort required/needed/given and also the complexity of the change to take place in an estimated amount of time.
+
+\subsection{Approving or disapproving change}
+The authorities responsible for each change made during the configuration control process will be evaluating the CIs and the changes made to the actual deliverables. For this a Configuration control board will be there as the intra­group organizations are created to affect the technical as well as the technical part. This CCB can be an individual or group. Also, multiple layers of the CCB can be implied to any of the complex changes that should be evaluated and to be seen as the changing the actual deliverable. So for each of the layer implemented during this should be specified, this plan should be helping the team for doing that. This will be most effective when there are multiple CCBs are working at the same time. For any CCB utilized, TravelDiaries SCM will indicate its level of authority and their respective responsibilities.
+
+\subsection{Implementing change}
+This section of the SCMP specifies the activities for verifying
+and implementing an approved change.\\
+ A completed change request must contain the following
+information.\\
+\begin{itemize}
+\item The original change request(s).
+\item The names and versions of the affected configuration items.
+\item Verification date and responsible party.
+\item Identifier of the new version.
+\item Release or installation date and responsible party.
+\end{itemize}
+This section must also specify activities for -:\\
+\begin{itemize}
+\item Archiving completed change requests.
+\item Planning and control of releases.
+\item How to coordinate multiple changes.
+\item How to add new CIs to the configuration.
+\item How to deliver a new baseline.
+\end{itemize}
+
+\section{Configuration Status accounting}
+Configuration status accounting activities record and report the status of TravelDiaries CIs.
+
+This will be including the data elements and other metrics things to be tracked and reported as per the baselines defined earlier. Also, for the status part accounting reports should be generated and at what frequency. And for the status to achieve at each point of time during the TravelDiaries application development will depend on how information is to be collected, stored, processed, reported, and protected from loss. Also, for the developing authorities in TravelDiaries system will be needing the status at any point of time so for that the status data should be controlled very well.This will be done using the latex files where all the plan isset ready with the details of the CIs and whether they are approved or not.
+\
+\section{Interface Control}
+After each change’s module testing and system testing, the set of deliverables would be checked whether that changed as well or not. So this work will be done by the whole team as we’re implementing the software. Also, the system architecture will not be changed, and if that, then again whether the system can be operated as before with adding other changes as well. As the other change or modules introduced while configuring the CIs, the documentation of it will be changed and also the code snippets, modules, and the system will also be modified as well. Here the coding team is responsible for modifying and integrating those other modules while the other team will be checking, reviewing, and completing the documentation of the changes as well.
+
+
+\section{Release management and delivery}
+
+
+After all the documentation of the new additional CIs into codes, system, working modules/interfaces, documentation, and the database, the new release would be announced to publish. As also the manual and other related documents will be modified and after all that, all the module will be reviewed again, In which the TravelDiaries system will be tested again as we’re already using the Evolutionary model. So that will help us maintaining the quality as well.
+
+\section{Resources}
+github is used for the documents, graphs, charts. This will help using tracking the activities done by the team with the version relevant to that of the model as well.
+
+
+android studio and django server ,and android phone is used for the working, implementation and testing of the application before putting it on the main domain.
+
+
+Also, github works as a cloud storage system. And other than that Whatsapp has very key role in communicating and acknowledging about the changes as well as the addition of the new version of the software.
+
+\section{Plan Maintenance}
+The configuration Manager is responsible for monitoring the Software Configuration Management plan. The software Configuration Management plan has to be updated on the introduction of new Software Configuration Management guidelines or the modification of old guidelines. This will be introduced before each phase to the team before the team as well as the quality assurance, to keep the changes accordingly, and approved and distributed to the team. Changes made to the application of deliverables SCM plan are evaluated and approved by the team reviewing and will be acknowledged to all the members of the team.
+
+
+\section{Reference}
+
+IEEE Std 828TM­2005 (Revision of IEEE Std 828­1998) – IEEE Standard for Software Configuration Management Plans
+IEEE Std 828TM­2005 (Revision of IEEE Std 828­1998) – IEEE Standard for Software Configuration Management Plans.
+
+
+\end{document}

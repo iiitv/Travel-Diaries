@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Objective}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Functional Test Scope }{3}{section.2}
+\contentsline {section}{\numberline {3}Entrance Criteria }{3}{section.3}
+\contentsline {section}{\numberline {4}Test case}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Testing All functionality}{3}{subsection.4.1}
+\contentsline {section}{\numberline {5}Exit Criteria}{5}{section.5}
+\contentsline {section}{\numberline {6}Responsibility}{6}{section.6}

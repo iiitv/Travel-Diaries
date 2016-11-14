@@ -1,0 +1,158 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks = true,
+  linkcolor  = black
+}
+
+
+% Title Page
+\title{Software Engineering (CS301)\\ Document Name(Version)\\Travel Diaries}
+\author{Group 5}
+
+\begin{document}
+\maketitle
+
+
+\begin{center}
+\textbf{Project Members}\\
+\vspace*{.6cm}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ID} & \textbf{Name}\\
+\hline
+\hline
+201452004 & Nilesh Chaturvedi\\
+\hline
+201452005 & Jitendra Singh\\
+\hline
+201452012 & Durga Vijaya Lakshmi\\
+\hline
+201452036 & Pedapalli Akhil\\
+\hline
+20152040 & B. Indu\\
+\hline
+201452044 & Dileep Krishna\\
+\hline
+201452050 & Shreya Singh\\
+\hline
+201452056 & Ravi Patel\\
+\hline
+201452057 & G. Raju Koushik\\
+\hline
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Authored By} & \textbf{Name}\\
+\textbf{Reviewed By} & \textbf{Name}\\
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+The application shall allow users to maintain their own login account and would allow the user to set
+their privacy levels according to their convenience. As the user logs in to their respective accounts, the
+application would not only provide the users with the appropriate posts of travel diaries but it will also
+enable them to upload their experiences in the specific travel diary they intend to. Moreover, they can
+share their experiences along with their geo-tagged photos on the platform and would help out people
+in deciding a destination.
+\section{System Environment}
+\begin{itemize}
+\item Development: Android SDK
+%\item Diagrams: Wireframe, Dia
+\item Database Management: PostgreSQL 
+\item Server: Django
+%\item Discussion: Whatsapp Group
+\end{itemize}
+\section{Setting Up Android Studio and server }
+The website executes on a web server running Django . So before you start using website you need following programs(softwares) installed on computer/system :
+\begin{itemize}
+\item Android Stduio
+\item Sdk
+\item PostgreSQL database server
+\item pgAdminIII
+\item Django server
+\end{itemize}
+
+Based on the platform, like if you are using \textbf{Linux} you have to follow the given procedures:\\
+\subsection{Installing Android studio}
+Go to \href{https://developer.android.com/studio/index.html}{Android Developer}. home page and download according to your environment and follow the instruction .
+
+
+\subsection{Install Django}
+\begin{enumerate}
+   \item First Install Python
+   
+   \begin{enumerate}
+     \item 
+     \item Second level item
+     \begin{enumerate}
+       \item Third level item
+       \item Third level item
+       \begin{enumerate}
+         \item Fourth level item
+         \item Fourth level item
+       \end{enumerate}
+     \end{enumerate}
+   \end{enumerate}
+ \end{enumerate}
+
+
+
+
+% Install Python
+%\begin{itemize}
+% 
+%
+%\item Contents
+% 
+% \item Install Apache and mod_wsgi
+% \item Get your database running.
+% \item Remove any old versions of Django.
+% \item Install the Django code. Installing an official release with pip. Installing a distribution-specific package. Installing     \item the development version.
+%
+%\end{itemize}
+
+
+
+
+$\gg$For PostgreSQL we have to install PHP module for PostgreSQL, for that type:
+
+
+\subsection{Install PostgreSQL and Setup Database Server}
+$\gg$Open Terminal and type the given commands:
+
+$\gg$Now type following commands to install Administration tool \textbf{pgAdminIII}
+
+\subsubsection{Setting up pgAdminIII}
+$\gg$Open pgAdminIII tool
+
+$\gg$Click top-left icon
+
+$\gg$A window pops-out
+
+$\gg$Fill the entries accordingly
+
+$\gg$Once the server is setup then restore the backup file which is included in this software.
+$\gg$Backup file will create the database and make all the entries which are required.
+\subsubsection{Running the server}
+\begin{itemize}
+\item We will provide \texttt{backup file} for the database.
+\item In pgAdmin, click on the web server you just created.
+\item Right click on the Database heading, select New Database and name it IIITV.
+
+\item If on the different pc (Note - both pc must be connected to the same network), then find the IP address of the pc in which database is created using \texttt{ifconfig} command. After that, in the second pc, open \texttt{db$\_$conn.djago} file and in place of \texttt{localhost}, type the IP of the first pc. Follow the above steps.
+\end{itemize}
+
+\end{document}

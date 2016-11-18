@@ -1,8 +1,10 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Objective}{3}{subsection.1.2}
 \contentsline {section}{\numberline {2}System Environment}{3}{section.2}
 \contentsline {section}{\numberline {3}Setting Up Android Studio and server }{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Installing Android studio}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Install Django}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Install Django}{4}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Install PostgreSQL and Setup Database Server}{4}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Setting up pgAdminIII}{4}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Running the server}{4}{subsubsection.3.3.2}

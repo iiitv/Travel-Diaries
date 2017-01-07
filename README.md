@@ -1,7 +1,7 @@
 # Travel-Diaries
 Social Networking Platform for Tourists 
 
-This repository mainly contains all the documentation part of the project.
+This repository mainly contains all the documentation part of the project
 
 To access the source code of the project, follow the links given below
 
